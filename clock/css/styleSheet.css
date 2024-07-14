@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Kranky&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kranky", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.clock {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.hand {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform-origin: bottom;
+    transform: translateX(-50%);
+    background-color: white;
+}
+
+.hour {
+    width: 8px;
+    height: 80px;
+}
+
+.minute {
+    width: 6px;
+    height: 100px;
+}
+
+.second {
+    width: 2px;
+    height: 120px;
+    background-color: red;
+}
+
+.number {
+    position: absolute;
+    color: white;
+    font-size: 33px;
+    transform: translate(-50%, -50%);
+}
+
+.number1 {
+    top: 10%;
+    left: 70%;
+}
+
+.number2 {
+    top: 25%;
+    left: 87%;
+}
+
+.number3 {
+    top: 50%;
+    left: 96%;
+}
+
+.number4 {
+    top: 75%;
+    left: 88%;
+}
+
+.number5 {
+    top: 91%;
+    left: 70%;
+}
+
+.number6 {
+    top: 95%;
+    left: 50%;
+}
+
+.number7 {
+    top: 90%;
+    left: 28%;
+}
+
+.number8 {
+    top: 75%;
+    left: 11%;
+}
+
+.number9 {
+    top: 50%;
+    left: 5%;
+}
+
+.number10 {
+    top: 25%;
+    left: 14%;
+}
+
+.number11 {
+    top: 10%;
+    left: 29%;
+}
+
+.number12 {
+    top: 6%;
+    left: 50%;
+}

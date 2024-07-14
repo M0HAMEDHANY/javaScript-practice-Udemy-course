@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    background-color: rgb(52, 90, 186);
+}
+
+.container {
+    width: 50%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 5rem;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    color: black;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 2rem;
+
+}
+
+.color-box {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 2rem;
+}
+
+.slider label[for="red"],
+.slider label[for="blue"],
+.slider label[for="green"] {
+    float: inline-start;
+
+    display: block;
+    margin-bottom: 0.5rem;
+    margin-right: 15px;
+}
+
+.sliders {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.slider {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+}
+
+.slider span {
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    margin-left: 5px;
+
+}
+
+.slider input[type="range"] {
+    width: 100%;
+    height: 0.5rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+}
+
+.slider label[for="red"] {
+    color: red;
+}
+
+.slider label[for="blue"] {
+    color: blue;
+}
+
+.slider label[for="green"] {
+    color: green;
+}
+
+
+#input-type {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: context-menu;
+    transition: all 0.3s ease;
+    width: 12rem;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+#copy-btn {
+    background-color: rgb(52, 90, 186);
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: context-menu;
+    transition: all 0.3s ease;
+    width: 12rem;
+}
+
+#copy-btn:hover {
+    background-color: aliceblue;
+    color: rgb(52, 90, 186);
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    transition: all 0.3s ease;
+    width: 12rem;
+}
+
